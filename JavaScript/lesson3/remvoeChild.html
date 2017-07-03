@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+	<div id="div_red" style="background:#F00;height:100px"></div>
+	<div id="div_blue" style="background:#00F; heigth:100px"</div>
+</div>
+
+<script>
+
+function remove_red(){
+	var obj = document.getElementById("div_red");
+	obj.parentNode.removeChild(obj);
+	}
+</script>
+
+<button onclick="remove_red()">remove red div</button>
+</body>
+</html>
+
+

@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+
+.class_1 {
+	height:100px;
+	width:100px;
+	background:red;
+}
+
+.class_2 {
+	height:100px;
+	width:100px;
+	background:blue;
+}
+
+</style>
+</head>
+
+<body>
+<div id="div_1" class="class_1"></div>
+<br/>
+<a>before:</a>
+
+<script>
+
+doucument:write(document.getElementById("div_1").getAttribute("class"));
+</script>
+
+<br/>
+<a>agter:</a>
+
+<script>
+
+doucument.getElementById("div_1").setAttribute("class","class_2");
+document.werite(document.getElementById("div_1").getAttribute("class"));
+
+</script>
+</body>
+</html>
+
+
