@@ -1,0 +1,35 @@
+#tb td,th{
+	border:1px solid green;
+	padding:5px;
+}
+
+#tb {
+	border-collapse:collapse;
+	width:500px;
+	text-align:center;
+}
+
+#tb th{
+	text-align:center;
+	color:black;
+	background-color:lightseagreen;
+	
+}
+
+#tb tr.tr2 td{
+	color:black;
+	background-color:#B2FF99;
+}
+
+#p1{
+	outline-color:#FF704D;
+	outline-style:groove;
+	outline-width:10px;
+}
+#p2{
+	outline-style:dotted;
+	outline-color:green;
+	outline-width:5px;
+}
+
+
