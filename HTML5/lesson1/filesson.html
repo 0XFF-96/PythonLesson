@@ -1,0 +1,22 @@
+<fieldset>
+	<legend> display the latest Opera bourser </legend>
+	<form action="" method="POST" id="form1" oninput="output.value=parseInt(rang.value)">
+	<input type="text" autofocus="autofocus" required pattern="\d+" name="auto" placeholder=" must finished"/>
+	<input type="number" name="demoNUmber"
+		min="1" max="100" step="2" />
+	<input type="email" placeholder="place" name="mail" />
+	<input type="url" name="url" placeholder="correct address"/>
+	<br />
+	date:<input type="datetime" name="time" />
+	color:<input type="color" name="color" />
+	<br />
+	<input type="range" min="0" max="50"
+step="5" name="range" value="0" />
+	<output name="output">0</output>
+	<br />
+	<input type="submit" value="post the list" />
+	</form>
+	outside input tags
+	<input type="text" form="form1" name="demo" />
+</fieldset>
+
