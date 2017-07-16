@@ -56,3 +56,57 @@ body{
 	display:inline-block;
 	float:right;
 }
+#control rowspan{
+	height:25px;
+	font-size:20px;
+	color:#22;
+	margin-top:10px;
+}
+#start{
+	display:inline-block;
+	font-size:28px;
+	width:100px;
+	height:28px;
+	background-color:#20a6fa;
+	color:#ffe171;
+	text-shadow:1px 1px 2px #ffe171;
+	border-radius:5px;
+	box-shadow:2px 2px 5px #4c98f5;
+	text-align:center;
+	cursor:pointer;
+}
+#reset{
+	display:inline-block;
+	font-size:28px;
+	width:100px;
+	height:28px;
+	background-color:#20a6fa;
+	color:#ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align:center;
+	cursor:pointer;
+}
+
+#d1{
+	left:0px;
+}
+#d2{
+	left:150px;
+}
+#d3{
+	left:300px;
+}
+#d4{
+	top:150px;
+	left:150px;
+}
+#d5{
+	top:150px;
+	left:150px;
+}
+#d7{
+	top:300px;
+}
+
