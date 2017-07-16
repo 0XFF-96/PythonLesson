@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/spyderlib/spyder.py", line 2152, in main
+    mainwindow = run_spyder(app, options, args)
+  File "/usr/lib/python2.7/dist-packages/spyderlib/spyder.py", line 2047, in run_spyder
+    main.setup()
+  File "/usr/lib/python2.7/dist-packages/spyderlib/spyder.py", line 734, in setup
+    self.workingdirectory = WorkingDirectory(self, self.init_workdir)
+  File "/usr/lib/python2.7/dist-packages/spyderlib/plugins/workingdirectory.py", line 206, in __init__
+    self.chdir(workdir)
+  File "/usr/lib/python2.7/dist-packages/spyderlib/plugins/workingdirectory.py", line 332, in chdir
+    os.chdir( unicode(directory) )
+OSError: [Errno 2] 没有那个文件或目录: '/home/shiyanlou/PythonLesson/Numpy/scientific-python-lectures'
