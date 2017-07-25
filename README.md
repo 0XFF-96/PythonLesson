@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # LearningByDoingLinux
-hey guys ! This is small program that I collect from Internet .And by using linux envirment, I push my code herew
+hey guys ! This is small program that I collect from Internet .And by using linux envirment, I push my code here
 =======
 # PythonLesson
 因为之前用来放练习代码的仓库，文件结构混乱。 于是，今天再开一个仓库，存放所学，所用过的python代码
